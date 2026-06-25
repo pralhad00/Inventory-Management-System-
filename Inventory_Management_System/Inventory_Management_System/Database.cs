@@ -9,8 +9,7 @@ namespace Inventory_Management_System
 {
     class Database
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-yourname\SQLEXPRESS;Initial Catalog=InventoryManagementSystemDB;Integrated Security=True");
-
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=InventoryManagementSystemDB;User ID=inventoryuser;Password=Admin123!;TrustServerCertificate=True");
         public void openConnection() 
         { 
             if(sqlConnection.State == System.Data.ConnectionState.Closed)

@@ -33,62 +33,61 @@
             this.NK_menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cameraShopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.NK_administrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.NK_tabPage1 = new System.Windows.Forms.TabPage();
-            this.NK_pnl_Registration = new System.Windows.Forms.Panel();
-            this.NK_lbl_Name = new System.Windows.Forms.Label();
-            this.NK_pic_Search = new System.Windows.Forms.PictureBox();
-            this.NK_pic_Reload = new System.Windows.Forms.PictureBox();
-            this.NK_txt_Search = new System.Windows.Forms.TextBox();
-            this.NK_dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.NK_panel1 = new System.Windows.Forms.Panel();
-            this.NK_pic_Inventory = new System.Windows.Forms.PictureBox();
-            this.NK_NewEntry = new System.Windows.Forms.Label();
-            this.NK_lbl_Supplier = new System.Windows.Forms.Label();
-            this.NK_lbl_Quantity = new System.Windows.Forms.Label();
-            this.NK_lbl_Price = new System.Windows.Forms.Label();
-            this.NK_lbl_Type = new System.Windows.Forms.Label();
-            this.NK_lbl_ID = new System.Windows.Forms.Label();
-            this.NK_txt_ID = new System.Windows.Forms.TextBox();
-            this.NK_txt_Type = new System.Windows.Forms.TextBox();
-            this.NK_pic_Clear = new System.Windows.Forms.PictureBox();
-            this.NK_txt_Quantity = new System.Windows.Forms.TextBox();
-            this.NK_txt_Supplier = new System.Windows.Forms.TextBox();
-            this.NK_txt_Price = new System.Windows.Forms.TextBox();
-            this.NK_lbl_Management = new System.Windows.Forms.Label();
             this.NK_panel2 = new System.Windows.Forms.Panel();
-            this.NK_btn_NewEntry = new System.Windows.Forms.Button();
-            this.NK_btn_Change = new System.Windows.Forms.Button();
-            this.NK_btn_Save = new System.Windows.Forms.Button();
             this.NK_btn_Delete = new System.Windows.Forms.Button();
+            this.NK_btn_Save = new System.Windows.Forms.Button();
+            this.NK_btn_Change = new System.Windows.Forms.Button();
+            this.NK_btn_NewEntry = new System.Windows.Forms.Button();
+            this.NK_lbl_Management = new System.Windows.Forms.Label();
+            this.NK_panel1 = new System.Windows.Forms.Panel();
+            this.NK_txt_Price = new System.Windows.Forms.TextBox();
+            this.NK_txt_Supplier = new System.Windows.Forms.TextBox();
+            this.NK_txt_Quantity = new System.Windows.Forms.TextBox();
+            this.NK_pic_Clear = new System.Windows.Forms.PictureBox();
+            this.NK_txt_Type = new System.Windows.Forms.TextBox();
+            this.NK_txt_ID = new System.Windows.Forms.TextBox();
+            this.NK_lbl_ID = new System.Windows.Forms.Label();
+            this.NK_lbl_Type = new System.Windows.Forms.Label();
+            this.NK_lbl_Price = new System.Windows.Forms.Label();
+            this.NK_lbl_Quantity = new System.Windows.Forms.Label();
+            this.NK_lbl_Supplier = new System.Windows.Forms.Label();
+            this.NK_NewEntry = new System.Windows.Forms.Label();
+            this.NK_pic_Inventory = new System.Windows.Forms.PictureBox();
+            this.NK_dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.NK_pnl_Registration = new System.Windows.Forms.Panel();
+            this.NK_txt_Search = new System.Windows.Forms.TextBox();
+            this.NK_pic_Reload = new System.Windows.Forms.PictureBox();
+            this.NK_pic_Search = new System.Windows.Forms.PictureBox();
+            this.NK_lbl_Name = new System.Windows.Forms.Label();
             this.NK_tabControl1 = new System.Windows.Forms.TabControl();
             this.NK_lbl_Permission = new System.Windows.Forms.Label();
             this.NK_menuStrip1.SuspendLayout();
             this.NK_tabPage1.SuspendLayout();
-            this.NK_pnl_Registration.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Search)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Reload)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_dataGridView1)).BeginInit();
-            this.NK_panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Inventory)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Clear)).BeginInit();
             this.NK_panel2.SuspendLayout();
+            this.NK_panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Clear)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Inventory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_dataGridView1)).BeginInit();
+            this.NK_pnl_Registration.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Reload)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Search)).BeginInit();
             this.NK_tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // NK_menuStrip1
             // 
+            this.NK_menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.NK_menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.infoToolStripMenuItem,
             this.NK_administrationToolStripMenuItem});
             this.NK_menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.NK_menuStrip1.Name = "NK_menuStrip1";
             this.NK_menuStrip1.Padding = new System.Windows.Forms.Padding(9, 4, 0, 4);
-            this.NK_menuStrip1.Size = new System.Drawing.Size(989, 33);
+            this.NK_menuStrip1.Size = new System.Drawing.Size(994, 40);
             this.NK_menuStrip1.TabIndex = 0;
             this.NK_menuStrip1.Text = "menuStrip1";
             // 
@@ -98,41 +97,35 @@
             this.cameraShopToolStripMenuItem});
             this.fileToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(47, 25);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(57, 32);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // cameraShopToolStripMenuItem
             // 
             this.cameraShopToolStripMenuItem.Name = "cameraShopToolStripMenuItem";
-            this.cameraShopToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            // 
-            // infoToolStripMenuItem
-            // 
-            this.infoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(52, 25);
-            this.infoToolStripMenuItem.Text = "Info";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.cameraShopToolStripMenuItem.Size = new System.Drawing.Size(86, 26);
             // 
             // NK_administrationToolStripMenuItem
             // 
             this.NK_administrationToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.NK_administrationToolStripMenuItem.Name = "NK_administrationToolStripMenuItem";
-            this.NK_administrationToolStripMenuItem.Size = new System.Drawing.Size(130, 25);
+            this.NK_administrationToolStripMenuItem.Size = new System.Drawing.Size(160, 32);
             this.NK_administrationToolStripMenuItem.Text = "Administration";
             this.NK_administrationToolStripMenuItem.Click += new System.EventHandler(this.NK_administrationToolStripMenuItem_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.tabPage2.Size = new System.Drawing.Size(979, 753);
+            this.tabPage2.Size = new System.Drawing.Size(979, 748);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
@@ -143,79 +136,76 @@
             this.NK_tabPage1.Controls.Add(this.NK_panel1);
             this.NK_tabPage1.Controls.Add(this.NK_dataGridView1);
             this.NK_tabPage1.Controls.Add(this.NK_pnl_Registration);
-            this.NK_tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.NK_tabPage1.Location = new System.Drawing.Point(4, 34);
             this.NK_tabPage1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.NK_tabPage1.Name = "NK_tabPage1";
             this.NK_tabPage1.Padding = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.NK_tabPage1.Size = new System.Drawing.Size(979, 753);
+            this.NK_tabPage1.Size = new System.Drawing.Size(979, 748);
             this.NK_tabPage1.TabIndex = 0;
             this.NK_tabPage1.Text = "Camera Shop";
             this.NK_tabPage1.UseVisualStyleBackColor = true;
             this.NK_tabPage1.Click += new System.EventHandler(this.NK_tabPage1_Click);
             // 
-            // NK_pnl_Registration
+            // NK_panel2
             // 
-            this.NK_pnl_Registration.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.NK_pnl_Registration.Controls.Add(this.NK_txt_Search);
-            this.NK_pnl_Registration.Controls.Add(this.NK_pic_Reload);
-            this.NK_pnl_Registration.Controls.Add(this.NK_pic_Search);
-            this.NK_pnl_Registration.Controls.Add(this.NK_lbl_Name);
-            this.NK_pnl_Registration.Location = new System.Drawing.Point(0, 3);
-            this.NK_pnl_Registration.Name = "NK_pnl_Registration";
-            this.NK_pnl_Registration.Size = new System.Drawing.Size(976, 60);
-            this.NK_pnl_Registration.TabIndex = 6;
+            this.NK_panel2.BackColor = System.Drawing.Color.Transparent;
+            this.NK_panel2.Controls.Add(this.NK_btn_Delete);
+            this.NK_panel2.Controls.Add(this.NK_btn_Save);
+            this.NK_panel2.Controls.Add(this.NK_btn_Change);
+            this.NK_panel2.Controls.Add(this.NK_btn_NewEntry);
+            this.NK_panel2.Location = new System.Drawing.Point(640, 401);
+            this.NK_panel2.Name = "NK_panel2";
+            this.NK_panel2.Size = new System.Drawing.Size(213, 218);
+            this.NK_panel2.TabIndex = 9;
             // 
-            // NK_lbl_Name
+            // NK_btn_Delete
             // 
-            this.NK_lbl_Name.AutoSize = true;
-            this.NK_lbl_Name.Font = new System.Drawing.Font("Century Schoolbook", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NK_lbl_Name.Location = new System.Drawing.Point(8, 5);
-            this.NK_lbl_Name.Name = "NK_lbl_Name";
-            this.NK_lbl_Name.Size = new System.Drawing.Size(198, 41);
-            this.NK_lbl_Name.TabIndex = 6;
-            this.NK_lbl_Name.Text = "Inventory";
+            this.NK_btn_Delete.Location = new System.Drawing.Point(20, 60);
+            this.NK_btn_Delete.Name = "NK_btn_Delete";
+            this.NK_btn_Delete.Size = new System.Drawing.Size(175, 34);
+            this.NK_btn_Delete.TabIndex = 3;
+            this.NK_btn_Delete.Text = "Delete";
+            this.NK_btn_Delete.UseVisualStyleBackColor = true;
+            this.NK_btn_Delete.Click += new System.EventHandler(this.NK_btn_Delete_Click);
             // 
-            // NK_pic_Search
+            // NK_btn_Save
             // 
-            this.NK_pic_Search.Image = ((System.Drawing.Image)(resources.GetObject("NK_pic_Search.Image")));
-            this.NK_pic_Search.Location = new System.Drawing.Point(704, 19);
-            this.NK_pic_Search.Name = "NK_pic_Search";
-            this.NK_pic_Search.Size = new System.Drawing.Size(35, 27);
-            this.NK_pic_Search.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.NK_pic_Search.TabIndex = 7;
-            this.NK_pic_Search.TabStop = false;
+            this.NK_btn_Save.Location = new System.Drawing.Point(20, 163);
+            this.NK_btn_Save.Name = "NK_btn_Save";
+            this.NK_btn_Save.Size = new System.Drawing.Size(175, 34);
+            this.NK_btn_Save.TabIndex = 2;
+            this.NK_btn_Save.Text = "Save";
+            this.NK_btn_Save.UseVisualStyleBackColor = true;
+            this.NK_btn_Save.Click += new System.EventHandler(this.NK_btn_Save_Click);
             // 
-            // NK_pic_Reload
+            // NK_btn_Change
             // 
-            this.NK_pic_Reload.Image = ((System.Drawing.Image)(resources.GetObject("NK_pic_Reload.Image")));
-            this.NK_pic_Reload.Location = new System.Drawing.Point(640, 19);
-            this.NK_pic_Reload.Name = "NK_pic_Reload";
-            this.NK_pic_Reload.Size = new System.Drawing.Size(34, 27);
-            this.NK_pic_Reload.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.NK_pic_Reload.TabIndex = 8;
-            this.NK_pic_Reload.TabStop = false;
-            this.NK_pic_Reload.Click += new System.EventHandler(this.NK_pic_Reload_Click);
+            this.NK_btn_Change.Location = new System.Drawing.Point(20, 113);
+            this.NK_btn_Change.Name = "NK_btn_Change";
+            this.NK_btn_Change.Size = new System.Drawing.Size(175, 34);
+            this.NK_btn_Change.TabIndex = 1;
+            this.NK_btn_Change.Text = "Change";
+            this.NK_btn_Change.UseVisualStyleBackColor = true;
+            this.NK_btn_Change.Click += new System.EventHandler(this.NK_btn_Change_Click);
             // 
-            // NK_txt_Search
+            // NK_btn_NewEntry
             // 
-            this.NK_txt_Search.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NK_txt_Search.Location = new System.Drawing.Point(745, 19);
-            this.NK_txt_Search.Name = "NK_txt_Search";
-            this.NK_txt_Search.Size = new System.Drawing.Size(209, 27);
-            this.NK_txt_Search.TabIndex = 9;
-            this.NK_txt_Search.TextChanged += new System.EventHandler(this.NK_txt_Search_TextChanged);
+            this.NK_btn_NewEntry.Location = new System.Drawing.Point(20, 13);
+            this.NK_btn_NewEntry.Name = "NK_btn_NewEntry";
+            this.NK_btn_NewEntry.Size = new System.Drawing.Size(175, 34);
+            this.NK_btn_NewEntry.TabIndex = 0;
+            this.NK_btn_NewEntry.Text = "New entry";
+            this.NK_btn_NewEntry.UseVisualStyleBackColor = true;
+            this.NK_btn_NewEntry.Click += new System.EventHandler(this.NK_btn_NewEntry_Click);
             // 
-            // NK_dataGridView1
+            // NK_lbl_Management
             // 
-            this.NK_dataGridView1.AllowUserToAddRows = false;
-            this.NK_dataGridView1.AllowUserToDeleteRows = false;
-            this.NK_dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.NK_dataGridView1.Location = new System.Drawing.Point(9, 69);
-            this.NK_dataGridView1.Name = "NK_dataGridView1";
-            this.NK_dataGridView1.ReadOnly = true;
-            this.NK_dataGridView1.Size = new System.Drawing.Size(961, 295);
-            this.NK_dataGridView1.TabIndex = 7;
-            this.NK_dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.NK_dataGridView1_CellClick);
+            this.NK_lbl_Management.AutoSize = true;
+            this.NK_lbl_Management.Location = new System.Drawing.Point(677, 378);
+            this.NK_lbl_Management.Name = "NK_lbl_Management";
+            this.NK_lbl_Management.Size = new System.Drawing.Size(182, 25);
+            this.NK_lbl_Management.TabIndex = 7;
+            this.NK_lbl_Management.Text = "Entry management";
             // 
             // NK_panel1
             // 
@@ -238,86 +228,29 @@
             this.NK_panel1.Size = new System.Drawing.Size(566, 232);
             this.NK_panel1.TabIndex = 8;
             // 
-            // NK_pic_Inventory
+            // NK_txt_Price
             // 
-            this.NK_pic_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("NK_pic_Inventory.Image")));
-            this.NK_pic_Inventory.Location = new System.Drawing.Point(3, 3);
-            this.NK_pic_Inventory.Name = "NK_pic_Inventory";
-            this.NK_pic_Inventory.Size = new System.Drawing.Size(62, 65);
-            this.NK_pic_Inventory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.NK_pic_Inventory.TabIndex = 0;
-            this.NK_pic_Inventory.TabStop = false;
+            this.NK_txt_Price.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.NK_txt_Price.Location = new System.Drawing.Point(316, 187);
+            this.NK_txt_Price.Name = "NK_txt_Price";
+            this.NK_txt_Price.Size = new System.Drawing.Size(209, 32);
+            this.NK_txt_Price.TabIndex = 14;
             // 
-            // NK_NewEntry
+            // NK_txt_Supplier
             // 
-            this.NK_NewEntry.AutoSize = true;
-            this.NK_NewEntry.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NK_NewEntry.Location = new System.Drawing.Point(71, 11);
-            this.NK_NewEntry.Name = "NK_NewEntry";
-            this.NK_NewEntry.Size = new System.Drawing.Size(71, 30);
-            this.NK_NewEntry.TabIndex = 1;
-            this.NK_NewEntry.Text = "Entry:";
+            this.NK_txt_Supplier.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.NK_txt_Supplier.Location = new System.Drawing.Point(316, 151);
+            this.NK_txt_Supplier.Name = "NK_txt_Supplier";
+            this.NK_txt_Supplier.Size = new System.Drawing.Size(209, 32);
+            this.NK_txt_Supplier.TabIndex = 13;
             // 
-            // NK_lbl_Supplier
+            // NK_txt_Quantity
             // 
-            this.NK_lbl_Supplier.AutoSize = true;
-            this.NK_lbl_Supplier.Location = new System.Drawing.Point(246, 155);
-            this.NK_lbl_Supplier.Name = "NK_lbl_Supplier";
-            this.NK_lbl_Supplier.Size = new System.Drawing.Size(71, 20);
-            this.NK_lbl_Supplier.TabIndex = 2;
-            this.NK_lbl_Supplier.Text = "Supplier:";
-            // 
-            // NK_lbl_Quantity
-            // 
-            this.NK_lbl_Quantity.AutoSize = true;
-            this.NK_lbl_Quantity.Location = new System.Drawing.Point(243, 115);
-            this.NK_lbl_Quantity.Name = "NK_lbl_Quantity";
-            this.NK_lbl_Quantity.Size = new System.Drawing.Size(74, 20);
-            this.NK_lbl_Quantity.TabIndex = 3;
-            this.NK_lbl_Quantity.Text = "Quantity:";
-            // 
-            // NK_lbl_Price
-            // 
-            this.NK_lbl_Price.AutoSize = true;
-            this.NK_lbl_Price.Location = new System.Drawing.Point(270, 191);
-            this.NK_lbl_Price.Name = "NK_lbl_Price";
-            this.NK_lbl_Price.Size = new System.Drawing.Size(47, 20);
-            this.NK_lbl_Price.TabIndex = 6;
-            this.NK_lbl_Price.Text = "Price:";
-            // 
-            // NK_lbl_Type
-            // 
-            this.NK_lbl_Type.AutoSize = true;
-            this.NK_lbl_Type.Location = new System.Drawing.Point(271, 77);
-            this.NK_lbl_Type.Name = "NK_lbl_Type";
-            this.NK_lbl_Type.Size = new System.Drawing.Size(46, 20);
-            this.NK_lbl_Type.TabIndex = 4;
-            this.NK_lbl_Type.Text = "Type:";
-            // 
-            // NK_lbl_ID
-            // 
-            this.NK_lbl_ID.AutoSize = true;
-            this.NK_lbl_ID.Location = new System.Drawing.Point(288, 37);
-            this.NK_lbl_ID.Name = "NK_lbl_ID";
-            this.NK_lbl_ID.Size = new System.Drawing.Size(29, 20);
-            this.NK_lbl_ID.TabIndex = 5;
-            this.NK_lbl_ID.Text = "ID:";
-            // 
-            // NK_txt_ID
-            // 
-            this.NK_txt_ID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NK_txt_ID.Location = new System.Drawing.Point(316, 33);
-            this.NK_txt_ID.Name = "NK_txt_ID";
-            this.NK_txt_ID.Size = new System.Drawing.Size(209, 27);
-            this.NK_txt_ID.TabIndex = 10;
-            // 
-            // NK_txt_Type
-            // 
-            this.NK_txt_Type.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NK_txt_Type.Location = new System.Drawing.Point(316, 73);
-            this.NK_txt_Type.Name = "NK_txt_Type";
-            this.NK_txt_Type.Size = new System.Drawing.Size(209, 27);
-            this.NK_txt_Type.TabIndex = 11;
+            this.NK_txt_Quantity.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.NK_txt_Quantity.Location = new System.Drawing.Point(316, 111);
+            this.NK_txt_Quantity.Name = "NK_txt_Quantity";
+            this.NK_txt_Quantity.Size = new System.Drawing.Size(209, 32);
+            this.NK_txt_Quantity.TabIndex = 12;
             // 
             // NK_pic_Clear
             // 
@@ -330,90 +263,152 @@
             this.NK_pic_Clear.TabStop = false;
             this.NK_pic_Clear.Click += new System.EventHandler(this.NK_pic_Clear_Click);
             // 
-            // NK_txt_Quantity
+            // NK_txt_Type
             // 
-            this.NK_txt_Quantity.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NK_txt_Quantity.Location = new System.Drawing.Point(316, 111);
-            this.NK_txt_Quantity.Name = "NK_txt_Quantity";
-            this.NK_txt_Quantity.Size = new System.Drawing.Size(209, 27);
-            this.NK_txt_Quantity.TabIndex = 12;
+            this.NK_txt_Type.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.NK_txt_Type.Location = new System.Drawing.Point(316, 73);
+            this.NK_txt_Type.Name = "NK_txt_Type";
+            this.NK_txt_Type.Size = new System.Drawing.Size(209, 32);
+            this.NK_txt_Type.TabIndex = 11;
             // 
-            // NK_txt_Supplier
+            // NK_txt_ID
             // 
-            this.NK_txt_Supplier.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NK_txt_Supplier.Location = new System.Drawing.Point(316, 151);
-            this.NK_txt_Supplier.Name = "NK_txt_Supplier";
-            this.NK_txt_Supplier.Size = new System.Drawing.Size(209, 27);
-            this.NK_txt_Supplier.TabIndex = 13;
+            this.NK_txt_ID.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.NK_txt_ID.Location = new System.Drawing.Point(316, 33);
+            this.NK_txt_ID.Name = "NK_txt_ID";
+            this.NK_txt_ID.Size = new System.Drawing.Size(209, 32);
+            this.NK_txt_ID.TabIndex = 10;
             // 
-            // NK_txt_Price
+            // NK_lbl_ID
             // 
-            this.NK_txt_Price.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NK_txt_Price.Location = new System.Drawing.Point(316, 187);
-            this.NK_txt_Price.Name = "NK_txt_Price";
-            this.NK_txt_Price.Size = new System.Drawing.Size(209, 27);
-            this.NK_txt_Price.TabIndex = 14;
+            this.NK_lbl_ID.AutoSize = true;
+            this.NK_lbl_ID.Location = new System.Drawing.Point(288, 37);
+            this.NK_lbl_ID.Name = "NK_lbl_ID";
+            this.NK_lbl_ID.Size = new System.Drawing.Size(37, 25);
+            this.NK_lbl_ID.TabIndex = 5;
+            this.NK_lbl_ID.Text = "ID:";
             // 
-            // NK_lbl_Management
+            // NK_lbl_Type
             // 
-            this.NK_lbl_Management.AutoSize = true;
-            this.NK_lbl_Management.Location = new System.Drawing.Point(677, 378);
-            this.NK_lbl_Management.Name = "NK_lbl_Management";
-            this.NK_lbl_Management.Size = new System.Drawing.Size(144, 20);
-            this.NK_lbl_Management.TabIndex = 7;
-            this.NK_lbl_Management.Text = "Entry management";
+            this.NK_lbl_Type.AutoSize = true;
+            this.NK_lbl_Type.Location = new System.Drawing.Point(271, 77);
+            this.NK_lbl_Type.Name = "NK_lbl_Type";
+            this.NK_lbl_Type.Size = new System.Drawing.Size(59, 25);
+            this.NK_lbl_Type.TabIndex = 4;
+            this.NK_lbl_Type.Text = "Type:";
             // 
-            // NK_panel2
+            // NK_lbl_Price
             // 
-            this.NK_panel2.BackColor = System.Drawing.Color.Transparent;
-            this.NK_panel2.Controls.Add(this.NK_btn_Delete);
-            this.NK_panel2.Controls.Add(this.NK_btn_Save);
-            this.NK_panel2.Controls.Add(this.NK_btn_Change);
-            this.NK_panel2.Controls.Add(this.NK_btn_NewEntry);
-            this.NK_panel2.Location = new System.Drawing.Point(640, 401);
-            this.NK_panel2.Name = "NK_panel2";
-            this.NK_panel2.Size = new System.Drawing.Size(213, 218);
-            this.NK_panel2.TabIndex = 9;
+            this.NK_lbl_Price.AutoSize = true;
+            this.NK_lbl_Price.Location = new System.Drawing.Point(270, 191);
+            this.NK_lbl_Price.Name = "NK_lbl_Price";
+            this.NK_lbl_Price.Size = new System.Drawing.Size(61, 25);
+            this.NK_lbl_Price.TabIndex = 6;
+            this.NK_lbl_Price.Text = "Price:";
             // 
-            // NK_btn_NewEntry
+            // NK_lbl_Quantity
             // 
-            this.NK_btn_NewEntry.Location = new System.Drawing.Point(20, 13);
-            this.NK_btn_NewEntry.Name = "NK_btn_NewEntry";
-            this.NK_btn_NewEntry.Size = new System.Drawing.Size(175, 34);
-            this.NK_btn_NewEntry.TabIndex = 0;
-            this.NK_btn_NewEntry.Text = "New entry";
-            this.NK_btn_NewEntry.UseVisualStyleBackColor = true;
-            this.NK_btn_NewEntry.Click += new System.EventHandler(this.NK_btn_NewEntry_Click);
+            this.NK_lbl_Quantity.AutoSize = true;
+            this.NK_lbl_Quantity.Location = new System.Drawing.Point(243, 115);
+            this.NK_lbl_Quantity.Name = "NK_lbl_Quantity";
+            this.NK_lbl_Quantity.Size = new System.Drawing.Size(94, 25);
+            this.NK_lbl_Quantity.TabIndex = 3;
+            this.NK_lbl_Quantity.Text = "Quantity:";
             // 
-            // NK_btn_Change
+            // NK_lbl_Supplier
             // 
-            this.NK_btn_Change.Location = new System.Drawing.Point(20, 113);
-            this.NK_btn_Change.Name = "NK_btn_Change";
-            this.NK_btn_Change.Size = new System.Drawing.Size(175, 34);
-            this.NK_btn_Change.TabIndex = 1;
-            this.NK_btn_Change.Text = "Change";
-            this.NK_btn_Change.UseVisualStyleBackColor = true;
-            this.NK_btn_Change.Click += new System.EventHandler(this.NK_btn_Change_Click);
+            this.NK_lbl_Supplier.AutoSize = true;
+            this.NK_lbl_Supplier.Location = new System.Drawing.Point(246, 155);
+            this.NK_lbl_Supplier.Name = "NK_lbl_Supplier";
+            this.NK_lbl_Supplier.Size = new System.Drawing.Size(93, 25);
+            this.NK_lbl_Supplier.TabIndex = 2;
+            this.NK_lbl_Supplier.Text = "Supplier:";
             // 
-            // NK_btn_Save
+            // NK_NewEntry
             // 
-            this.NK_btn_Save.Location = new System.Drawing.Point(20, 163);
-            this.NK_btn_Save.Name = "NK_btn_Save";
-            this.NK_btn_Save.Size = new System.Drawing.Size(175, 34);
-            this.NK_btn_Save.TabIndex = 2;
-            this.NK_btn_Save.Text = "Save";
-            this.NK_btn_Save.UseVisualStyleBackColor = true;
-            this.NK_btn_Save.Click += new System.EventHandler(this.NK_btn_Save_Click);
+            this.NK_NewEntry.AutoSize = true;
+            this.NK_NewEntry.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NK_NewEntry.Location = new System.Drawing.Point(71, 11);
+            this.NK_NewEntry.Name = "NK_NewEntry";
+            this.NK_NewEntry.Size = new System.Drawing.Size(92, 37);
+            this.NK_NewEntry.TabIndex = 1;
+            this.NK_NewEntry.Text = "Entry:";
             // 
-            // NK_btn_Delete
+            // NK_pic_Inventory
             // 
-            this.NK_btn_Delete.Location = new System.Drawing.Point(20, 60);
-            this.NK_btn_Delete.Name = "NK_btn_Delete";
-            this.NK_btn_Delete.Size = new System.Drawing.Size(175, 34);
-            this.NK_btn_Delete.TabIndex = 3;
-            this.NK_btn_Delete.Text = "Delete";
-            this.NK_btn_Delete.UseVisualStyleBackColor = true;
-            this.NK_btn_Delete.Click += new System.EventHandler(this.NK_btn_Delete_Click);
+            this.NK_pic_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("NK_pic_Inventory.Image")));
+            this.NK_pic_Inventory.Location = new System.Drawing.Point(3, 3);
+            this.NK_pic_Inventory.Name = "NK_pic_Inventory";
+            this.NK_pic_Inventory.Size = new System.Drawing.Size(62, 65);
+            this.NK_pic_Inventory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.NK_pic_Inventory.TabIndex = 0;
+            this.NK_pic_Inventory.TabStop = false;
+            // 
+            // NK_dataGridView1
+            // 
+            this.NK_dataGridView1.AllowUserToAddRows = false;
+            this.NK_dataGridView1.AllowUserToDeleteRows = false;
+            this.NK_dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.NK_dataGridView1.Location = new System.Drawing.Point(3, 69);
+            this.NK_dataGridView1.Name = "NK_dataGridView1";
+            this.NK_dataGridView1.ReadOnly = true;
+            this.NK_dataGridView1.RowHeadersWidth = 51;
+            this.NK_dataGridView1.Size = new System.Drawing.Size(973, 295);
+            this.NK_dataGridView1.TabIndex = 7;
+            this.NK_dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.NK_dataGridView1_CellClick);
+            // 
+            // NK_pnl_Registration
+            // 
+            this.NK_pnl_Registration.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.NK_pnl_Registration.Controls.Add(this.NK_txt_Search);
+            this.NK_pnl_Registration.Controls.Add(this.NK_pic_Reload);
+            this.NK_pnl_Registration.Controls.Add(this.NK_pic_Search);
+            this.NK_pnl_Registration.Controls.Add(this.NK_lbl_Name);
+            this.NK_pnl_Registration.Location = new System.Drawing.Point(0, 3);
+            this.NK_pnl_Registration.Name = "NK_pnl_Registration";
+            this.NK_pnl_Registration.Size = new System.Drawing.Size(976, 60);
+            this.NK_pnl_Registration.TabIndex = 6;
+            // 
+            // NK_txt_Search
+            // 
+            this.NK_txt_Search.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.NK_txt_Search.Location = new System.Drawing.Point(745, 19);
+            this.NK_txt_Search.Name = "NK_txt_Search";
+            this.NK_txt_Search.Size = new System.Drawing.Size(209, 32);
+            this.NK_txt_Search.TabIndex = 9;
+            this.NK_txt_Search.TextChanged += new System.EventHandler(this.NK_txt_Search_TextChanged);
+            // 
+            // NK_pic_Reload
+            // 
+            this.NK_pic_Reload.Image = ((System.Drawing.Image)(resources.GetObject("NK_pic_Reload.Image")));
+            this.NK_pic_Reload.Location = new System.Drawing.Point(640, 19); this.NK_pic_Reload.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.NK_pic_Reload.Name = "NK_pic_Reload";
+            this.NK_pic_Reload.Size = new System.Drawing.Size(34, 27);
+            this.NK_pic_Reload.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.NK_pic_Reload.TabIndex = 8;
+            this.NK_pic_Reload.TabStop = false;
+            this.NK_pic_Reload.Click += new System.EventHandler(this.NK_pic_Reload_Click);
+            // 
+            // NK_pic_Search
+            // 
+            this.NK_pic_Search.Image = ((System.Drawing.Image)(resources.GetObject("NK_pic_Search.Image")));
+            this.NK_pic_Search.Location = new System.Drawing.Point(704, 19);
+            this.NK_pic_Search.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.NK_pic_Search.Name = "NK_pic_Search";
+            this.NK_pic_Search.Size = new System.Drawing.Size(35, 27);
+            this.NK_pic_Search.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.NK_pic_Search.TabIndex = 7;
+            this.NK_pic_Search.TabStop = false;
+            // 
+            // NK_lbl_Name
+            // 
+            this.NK_lbl_Name.AutoSize = true;
+            this.NK_lbl_Name.Font = new System.Drawing.Font("Century Schoolbook", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NK_lbl_Name.Location = new System.Drawing.Point(8, 5);
+            this.NK_lbl_Name.Name = "NK_lbl_Name";
+            this.NK_lbl_Name.Size = new System.Drawing.Size(250, 51);
+            this.NK_lbl_Name.TabIndex = 6;
+            this.NK_lbl_Name.Text = "Inventory";
             // 
             // NK_tabControl1
             // 
@@ -438,9 +433,9 @@
             // 
             // NK_Form_Inventory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 749);
+            this.ClientSize = new System.Drawing.Size(994, 749);
             this.Controls.Add(this.NK_lbl_Permission);
             this.Controls.Add(this.NK_tabControl1);
             this.Controls.Add(this.NK_menuStrip1);
@@ -454,16 +449,16 @@
             this.NK_menuStrip1.PerformLayout();
             this.NK_tabPage1.ResumeLayout(false);
             this.NK_tabPage1.PerformLayout();
-            this.NK_pnl_Registration.ResumeLayout(false);
-            this.NK_pnl_Registration.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Search)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Reload)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_dataGridView1)).EndInit();
+            this.NK_panel2.ResumeLayout(false);
             this.NK_panel1.ResumeLayout(false);
             this.NK_panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Inventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Clear)).EndInit();
-            this.NK_panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Inventory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_dataGridView1)).EndInit();
+            this.NK_pnl_Registration.ResumeLayout(false);
+            this.NK_pnl_Registration.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Reload)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NK_pic_Search)).EndInit();
             this.NK_tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -475,7 +470,6 @@
         private System.Windows.Forms.MenuStrip NK_menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cameraShopToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem NK_administrationToolStripMenuItem;
         private System.Windows.Forms.TabPage tabPage2;
